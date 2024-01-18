@@ -1,0 +1,5 @@
+select Customer_ID,count(orders) as Order_Count
+from Orders
+group by Customer_Id
+order by Order_Count desc
+limit 3;

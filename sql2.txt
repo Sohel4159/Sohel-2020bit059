@@ -1,0 +1,3 @@
+select Customer_ID,avg(GrossTotal)
+from Orders
+group by Customer_ID;

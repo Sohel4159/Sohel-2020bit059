@@ -1,0 +1,2 @@
+delete Logs
+where year(Datetime)<2023;

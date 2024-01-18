@@ -1,0 +1,3 @@
+select c.ID
+from Customers c,Orders o
+where c.id=o.Customer_ID;

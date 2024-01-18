@@ -1,0 +1,4 @@
+select *
+ from Employees
+order by salary desc
+limit 5;
